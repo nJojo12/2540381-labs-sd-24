@@ -1,0 +1,86 @@
+header,footer{
+    background-color: #2a2a2a;
+    display: flex;
+    color: white;
+    /* height: fit-content; */
+    align-items: center;
+
+}
+.header-title{
+    padding-left: 150px;
+    flex: 1.5;
+}
+
+body, header, section,p, .bottom h3, main{
+    margin: 0;
+    padding: 0;
+}
+
+/* header .right { 
+    margin-left: auto; 
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 150px;
+} */
+
+.topnav a{
+    /* float: right;
+    display: block; */
+    color: white;
+    /* text-align: right; */
+    /* padding: 14px 16px; */
+    text-decoration: none;
+    
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+    flex: 1;
+    gap: 10px;
+    margin-right: 150px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+main{
+    display: flexbox;
+    /* background-color: aqua; */
+}
+main .about-us, .our-services{
+    text-align: center;
+
+}
+
+.bottom{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 70px;
+   
+}
+.Graphic, .web{
+    border: 2px solid #bab5b5;
+
+}
+img{
+    height: 400px;
+    width: 600px;
+    padding-left:10px ;
+    padding-bottom: 10px;
+    padding-right:10px;
+}
+
+
+footer{
+
+    align-items: baseline;
+    justify-content: space-around;
+    padding: 9px;
+    background-color: #2a2a2a;
+    color: white;
+
+}
+.bottom h3{
+    padding-top: 5px;
+}
